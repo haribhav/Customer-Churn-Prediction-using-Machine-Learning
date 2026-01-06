@@ -15,7 +15,7 @@ Target variable:
 
 Feature types include:
 - Numerical features such as tenure, MonthlyCharges, and TotalCharges
-- Categorical features such as Contract, PaymentMethod, and InternetService
+- Categorical features such as Contract, PaymentMethod, and InternetService etc
 
 ## Data Preprocessing
 The following preprocessing steps were applied:
@@ -69,15 +69,3 @@ Probabilistic outputs allow businesses to define custom risk thresholds and prio
 - SHAP-based explainability for deeper insights
 - Integration with dashboards or downstream systems
 
-## How to Run
-1. Clone the repository
-2. Install dependencies:
-   pip install -r requirements.txt
-3. Run the notebook:
-   jupyter notebook
-
-## Key Takeaways
-- Built a complete machine learning pipeline from preprocessing to evaluation
-- Addressed class imbalance using SMOTE
-- Focused on business-relevant evaluation metrics
-- Produced explainable and probabilistic predictions
